@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadingEdge="vertical"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/metaPromt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="metaPromt" />
+
+        <TextView
+            android:id="@+id/gravityPromt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="gravityPromt" />
+
+        <TextView
+            android:id="@+id/accelerometerPromt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="accelerometerPromt" />
+
+        <TextView
+            android:id="@+id/linearAccelerometerPromt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="linearAccelerometerPromt" />
+
+        <TextView
+            android:id="@+id/gyroscopePromt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="gyroscopePromt" />
+
+        <TextView
+            android:id="@+id/rotationVectorPromt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="rotationVectorPromt" />
+    </LinearLayout>
+
+</ScrollView>
